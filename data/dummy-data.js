@@ -2,16 +2,16 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Italian', '#f5428d'),
-  new Category('c2', 'Quick & Easy', '#f54242'),
-  new Category('c3', 'Hamburgers', '#f5a442'),
-  new Category('c4', 'German', '#f5d142'),
-  new Category('c5', 'Light & Lovely', '#368dff'),
-  new Category('c6', 'Exotic', '#41d95d'),
-  new Category('c7', 'Breakfast', '#9eecff'),
-  new Category('c8', 'Asian', '#b9ffb0'),
-  new Category('c9', 'French', '#ffc7ff'),
-  new Category('c10', 'Summer', '#47fced')
+  new Category('c1', 'Italian', 'https://cdn.pixabay.com/photo/2014/04/22/02/55/pasta-329522_1280.jpg'),
+  new Category('c2', 'Quick & Easy', 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F07%2F22%2F2433098.jpg'),
+  new Category('c3', 'Hamburgers', 'https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_1280.jpg'),
+  new Category('c4', 'German', 'https://images.pexels.com/photos/96618/pexels-photo-96618.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'),
+  new Category('c5', 'Light & Lovely', 'https://images.pexels.com/photos/6836097/pexels-photo-6836097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+  new Category('c6', 'Exotic', 'https://images.pexels.com/photos/7601434/pexels-photo-7601434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+  new Category('c7', 'Breakfast', 'https://images.pexels.com/photos/1633563/pexels-photo-1633563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+  new Category('c8', 'Asian', 'https://image-us.24h.com.vn/upload/3-2020/images/2020-09-17/1600300541-photo-1-1600006283562691307317.jpg'),
+  new Category('c9', 'French', 'https://images.pexels.com/photos/1510682/pexels-photo-1510682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+  new Category('c10', 'Summer', 'https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
 ];
 
 export const MEALS = [
